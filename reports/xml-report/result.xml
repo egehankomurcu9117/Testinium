@@ -1,0 +1,10 @@
+<testsuites>
+	<testsuite id="1" tests="1" failures="1" package="/Users/sahabt/Desktop/Web/specs/Example.spec" time="0.051" timestamp="2020-11-25T16:03:47" name="Specification Heading" errors="0" hostname="BatuhanZafer.local">
+		<properties></properties>
+		<testcase classname="Specification Heading" name="Deneme" time="0.051">
+			<failure message="Deneme&#xA;Scenario Pre Hook Failure: &#39;java.lang.IllegalStateException: The driver is not executable: /Users/sahabt/Desktop/Web/web_driver/chromedriver.exe&#39;" type="Deneme&#xA;Scenario Pre Hook Failure: &#39;java.lang.IllegalStateException: The driver is not executable: /Users/sahabt/Desktop/Web/web_driver/chromedriver.exe&#39;">com.google.common.base.Preconditions.checkState(Preconditions.java:585)&#xA;org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:150)&#xA;org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)&#xA;org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)&#xA;org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)&#xA;org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)&#xA;org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)&#xA;org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)&#xA;WebAutomationBase.base.BaseTest.setUp(BaseTest.java:93)&#xA;</failure>
+		</testcase>
+		<system-out></system-out>
+		<system-err></system-err>
+	</testsuite>
+</testsuites>
